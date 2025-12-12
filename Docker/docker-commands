@@ -1,0 +1,24 @@
+   16  sudo apt update
+   17  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   18  docker --version
+   19  serivce docker status
+   20  service docker status
+   21  vi index.html
+   22  ls
+   23  cat index.html
+   24  touch Dockerfile
+   25  ls
+   26  apt update -y
+   27  ls
+   28  vi Dockerfile
+   29  ls
+   30  docker build -t web-app .
+   31  vi Dockerfile
+   32  docker build -t web-app .
+   33  docker images
+   34  docker run -d --name login-app -p 80:80 web-app:latest
+   35  docker ps
+   36  ls
+   37  rm index.html
+   38  ls
+   39  history
